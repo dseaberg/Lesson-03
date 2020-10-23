@@ -12,6 +12,7 @@
       }
       .first-para {
         color: darkgoldenrod;
+        width:30%;
       }
 
       a[href="https://github.com/dseaberg/semantic-elements"] {
@@ -25,16 +26,31 @@
       a:hover {
         background-color: yellow;
       }
+
+      img {
+        border-style: dotted;
+        border-color: yellow;
+        border-width: 4px;
+      }
     </style>
   </head>
 
   <body>
     <h1>Welcome All!</h1>
-    <p class="first-para">Let's put some text here and then try to add some styling.</p>
-    <p class="second-para">And then we can have another paragraph here.</p>
+    <article class="first-article">
+      <p class="first-para">Let's put some text here and then try to add some styling.</p>
+      <p class="second-para">And then we can have another paragraph here.</p>
+    </article>
 
-    <a href="https://github.com/dseaberg/semantic-elements">Assignment 1</a>
-    <a href="https://github.com/dseaberg/portfolio">Assigment 2</a>
+    <section>
+      <a href="https://github.com/dseaberg/semantic-elements">Assignment 1</a>
+      <a href="https://github.com/dseaberg/portfolio">Assigment 2</a>
+    </section>
+
+    <section>
+      <img src="./images/happy-thanksgiving.jpg" alt="Decorated text saying happy thanksgiving">
+      <img src="./images/merry-christmas.jpg" alt="Decorated text saying merry christmas">
+    </section>
 
     <div>
       <ul>
